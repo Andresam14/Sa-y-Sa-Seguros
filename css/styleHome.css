@@ -1,0 +1,114 @@
+/* Alineamos el Header */
+header {
+    height: 100px; /* Establece una altura para el header */
+    display: flex; /* Alinea el contenido del header */
+    align-items: center; /* Centra verticalmente el contenido del header */
+    background-color: #61F054;
+}
+
+header nav ul {
+    list-style: none; /* Quita los puntos de la lista */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos en una fila */
+    justify-content: center; /* Distribuye los elementos con un espacio significativo entre cada uno */
+    width: 100%; /* Establece un ancho del 100% para que los elementos se distribuyan correctamente */
+    height: 100%; /* Establece una altura del 100% para que los elementos se centren verticalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  header nav ul li {
+    margin-right: 110px; /* Agrega un margen derecho a cada elemento para aumentar el espacio entre ellos */
+    margin-left: 50px;
+  }
+  
+  header nav a {
+    text-decoration: double; /* Quita la decoración del texto */
+    color: #0a0a0a; /* Cambia el color del texto */
+  }
+
+  /*Alineamos la primera section del body*/
+
+#seccion1 {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+#seccion1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Img/Seguro\ TR.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;  
+}
+
+#idSection1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#titlleCompany {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#infoCompany {
+  width: 100%;
+  height: 50%;
+  position: relative; 
+  text-align: center;
+  align-self: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+#botones {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  
+}
+
+.boton {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+
+/* alineamos  el footer */
+
+footer {
+  background-color: #61F054;
+  text-align: center;
+  
+}
+
