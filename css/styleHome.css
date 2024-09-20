@@ -1,6 +1,7 @@
+
 /* Alineamos el Header */
 header {
-    height: 100px; /* Establece una altura para el header */
+    height: 60px; /* Establece una altura para el header */
     display: flex; /* Alinea el contenido del header */
     align-items: center; /* Centra verticalmente el contenido del header */
     background-color: #61F054;
@@ -21,6 +22,7 @@ header nav ul {
   header nav ul li {
     margin-right: 110px; /* Agrega un margen derecho a cada elemento para aumentar el espacio entre ellos */
     margin-left: 50px;
+    align-items: center;
   }
   
   header nav a {
@@ -126,7 +128,7 @@ h1 {
 }
 
 .Noticias:hover {
-  background-color: #97f58f;
+  background-color: #caf5c2;
 }
 
 .seccionNoticias {
@@ -143,12 +145,11 @@ h1 {
 }
 
 .botonProductos img {
-  border-radius: 50%; /* le damos una curvatura a la imagen*/ 
+  border-radius: 30%; /* le damos una curvatura a la imagen*/ 
   
 }
 
 .botonProductos {
-  background-color: white;
   border-color: #0a0a0a;
   border-radius: 50%;
   margin: 30px; 
@@ -157,17 +158,45 @@ h1 {
 }
 
 .botonProductos:hover {
-  background-color: #61F054;
+  background-color: #b3b0b0;
 }
 
 /* alineamos  el footer */
 
-footer {
+.container-footer {
+  display: flex;
   background-color: #61F054;
   text-align: center;
   width: 100%;
-  height: 100px;
+  height: 150px;
+  text-align: center;
+  align-items: center;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* En caso de ver pantallas menos resolucion*/
 /* Estilos para pantallas pequeñas (menos de 768px de ancho) */
