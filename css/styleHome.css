@@ -108,6 +108,10 @@ h1 {
   background-color: #555151;
 }
 
+body{
+  flex: 1;
+}
+
 /* Alineamos la segunda seccion de noticias y productos para ti */
 
 .container-noticias {
