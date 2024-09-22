@@ -1,0 +1,111 @@
+/* Alineamos el Header */
+header {
+  height: 60px; /* Establece una altura para el header */
+  display: flex; /* Alinea el contenido del header */
+  align-items: center; /* Centra verticalmente el contenido del header */
+  background-color: #61F054;
+}
+
+header nav ul {
+  list-style: none; /* Quita los puntos de la lista */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  margin: 0;
+  padding: 0;
+  display: flex; /* Alinea los elementos en una fila */
+  justify-content: center; /* Distribuye los elementos con un espacio significativo entre cada uno */
+  width: 100%; /* Establece un ancho del 100% para que los elementos se distribuyan correctamente */
+  height: 100%; /* Establece una altura del 100% para que los elementos se centren verticalmente */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+header nav ul li {
+  margin-right: 80px; /* Agrega un margen derecho a cada elemento para aumentar el espacio entre ellos */
+  margin-left: 50px;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: double; /* Quita la decoración del texto */
+  color: #0a0a0a; /* Cambia el color del texto */
+}
+
+body {
+  background-color: white;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+main{
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+text-align: center;
+}
+
+
+input::placeholder{
+text-align: center;
+}
+
+input:focus::placeholder {
+opacity: 0; /* Oculta el placeholder cuando se pone el cursor */
+}
+
+.container-inicioSesion{
+display: inline-block ;
+border: 1px solid  black;
+border-radius: 25px;
+padding: 25px;
+}
+
+.login-text{
+width: 300px;
+height: 40px;
+font-size: 18px;
+}
+
+.login-form input[type="button"]{
+background-color: rgb(32, 32, 32);
+color: white;
+width: 150px;
+height: 45px;
+
+}
+
+
+.container-footer {
+  display: flex;
+  background-color: #61F054;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;   
+}
+
+.footer-left {
+  display: flex;
+  width: 33%;
+  height: 100%;
+  align-items: center;
+}
+
+.footer-center {
+  display: flex;
+  width: 33%;
+  height: 100%;
+  align-items: center;
+}
+
+.footer-rigth {
+  display: flex;
+  width: 33%;
+  height: 100%;
+  align-items: center;
+}
