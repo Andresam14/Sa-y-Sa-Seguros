@@ -37,6 +37,8 @@ body {
     text-align: center;
 }
 
+/*MAIN*/
+
 main{
     flex: 1;
     justify-content: center;
@@ -52,32 +54,31 @@ input::placeholder{
   text-align: center;
 }
 
-input:focus::placeholder {
-  opacity: 0; /* Oculta el placeholder cuando se pone el cursor */
+.container-registro{
+    display: inline-block ;
+    border: 1px solid  black;
+    box-shadow: 10px 10px 5px  #888888;
+    border-radius: 25px;
+    padding: 25px;
 }
 
-.container-inicioSesion{
-  display: inline-block ;
-  border: 1px solid  black;
-  border-radius: 25px;
-  padding: 25px;
+.registro-text{
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #dad7d7;
 }
 
-.login-text{
-  width: 300px;
-  height: 40px;
-  font-size: 18px;
-}
-
-.login-form input[type="button"]{
-  background-color: rgb(32, 32, 32);
-  color: white;
-  width: 150px;
-  height: 45px;
-
+.Registro-form input[type="button"]{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    width: 150px;
+    height: 45px;
 }
 
 
+
+/*FOOTER*/
 .container-footer {
     display: flex;
     background-color: #61F054;
