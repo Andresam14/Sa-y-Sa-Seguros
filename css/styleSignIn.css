@@ -58,15 +58,19 @@ input:focus::placeholder {
 
 .container-inicioSesion{
   display: inline-block ;
+  box-shadow: 5px 5px 5px  rgba(110, 110, 110, 0.2);
   border: 1px solid  black;
   border-radius: 25px;
   padding: 25px;
+  
+
 }
 
 .login-text{
   width: 300px;
   height: 40px;
   font-size: 18px;
+  background-color: rgb(218, 217, 215);
 }
 
 .login-form input[type="button"]{
