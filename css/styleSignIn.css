@@ -57,10 +57,12 @@ opacity: 0; /* Oculta el placeholder cuando se pone el cursor */
 }
 
 .container-inicioSesion{
-display: inline-block ;
-border: 1px solid  black;
-border-radius: 25px;
-padding: 25px;
+  width: 800px;
+  height: 450px;
+  display: inline-block ;
+  border: 1px solid  black;
+  border-radius: 25px;
+  padding: 25px;
 }
 
 .login-text{

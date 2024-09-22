@@ -43,6 +43,7 @@ main{
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 120px;
 }
 
 input{
@@ -54,29 +55,28 @@ input::placeholder{
   text-align: center;
 }
 
-.container-registro{
-    width: 800px;
-    height: 500px;
+.container-select-rol{
+    width: 600px;
+    height:250px;
     display: inline-block ;
     border: 1px solid  black;
     box-shadow: 10px 10px 5px  #888888;
     border-radius: 25px;
-    padding: 25px;
+    padding: 25px; 
 }
 
-.registro-text{
-    width: 300px;
+.select-option{
+    width: 200px;
     height: 30px;
-    font-size: 18px;
-    background-color: #dad7d7;
-}
+ }
 
-.Registro-form input[type="button"]{
-    background-color: rgb(32, 32, 32);
+.select-rol-button{
+    background-color: #0a0a0a;
     color: white;
     width: 150px;
     height: 45px;
-}
+ }
+
 
 /*FOOTER*/
 .container-footer {
