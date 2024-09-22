@@ -171,8 +171,33 @@ h1 {
   height: 150px;
   text-align: center;
   align-items: center;
-
+  justify-content: center;
 }
+
+.footer-left {
+  display: flex;
+  width: 33%;
+  height: 100%;
+  align-items: center;
+}
+
+.footer-center {
+  display: flex;
+  width: 33%;
+  height: 100%;
+  align-items: center;
+}
+
+.footer-rigth {
+  display: flex;
+  width: 33%;
+  height: 100%;
+  align-items: center;
+}
+
+
+  
+
 
 
 
