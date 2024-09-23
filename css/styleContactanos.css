@@ -32,7 +32,8 @@ header {
 /** Creamos los stilos del body*/
   
 body {
-    background-color: white;
+    background-image: url(../Img/Seguros.jpg);
+    background-size: 100% 100%;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -46,7 +47,13 @@ main{
     align-items: center;
 }
 
+.title-main {
+    font-size: 35px;
+    color: white;
+}
+
 .container-contact-us{
+    background-color: white;
     width: 1000px;
     height: 530px;
     display: inline-block ;
@@ -61,6 +68,7 @@ main{
     font-family: 'Courier New';
     font-size: 15px;
 }
+
 
 .contact-us-tittle p {
     text-align: center;
