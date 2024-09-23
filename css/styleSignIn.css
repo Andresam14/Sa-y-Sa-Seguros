@@ -80,34 +80,48 @@ height: 45px;
 }
 
 
+/*FOOTER*/
+
 .container-footer {
   display: flex;
   background-color: #61F054;
-  text-align: center;
-  width: 100%;
-  height: 150px;
+  justify-content: space-between;
   text-align: center;
   align-items: center;
-  justify-content: center;   
+  width: 100%; 
+  height: 20vh; 
 }
 
 .footer-left {
   display: flex;
-  width: 33%;
+  flex: 1;
   height: 100%;
   align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 20px;
+  flex-direction: column;
 }
 
-.footer-center {
+.footer-center, .footer-right {
   display: flex;
-  width: 33%;
+  flex: 1;
   height: 100%;
+  flex-direction: column; 
   align-items: center;
+  text-align: center;
 }
 
-.footer-rigth {
-  display: flex;
-  width: 33%;
-  height: 100%;
-  align-items: center;
+.footer-center-tittle{
+  font-size: 18px;
+}
+
+.footer-right-tittle{
+  font-size: 18px;
+}
+
+.footer-center-body, .footer-right-body {
+  font-size: 14px;
+  font-family:'Lucida Sans Unicode';
 }
