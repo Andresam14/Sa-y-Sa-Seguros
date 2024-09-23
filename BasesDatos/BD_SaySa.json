@@ -1,0 +1,10 @@
+{
+    "usuarios": [
+      {
+        "nombre": "admin",
+        "email": "admin@tucorreo.com",
+        "password": "Administrador",
+        "confirmar_password": "Administrador"
+      }      
+    ]
+  }
