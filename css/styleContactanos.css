@@ -1,0 +1,146 @@
+/* Alineamos el Header */
+header {
+    height: 60px; /* Establece una altura para el header */
+    display: flex; /* Alinea el contenido del header */
+    align-items: center; /* Centra verticalmente el contenido del header */
+    background-color: #61F054;
+  }
+  
+  header nav ul {
+    list-style: none; /* Quita los puntos de la lista */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos en una fila */
+    justify-content: center; /* Distribuye los elementos con un espacio significativo entre cada uno */
+    width: 100%; /* Establece un ancho del 100% para que los elementos se distribuyan correctamente */
+    height: 100%; /* Establece una altura del 100% para que los elementos se centren verticalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  header nav ul li {
+    margin-right: 80px; /* Agrega un margen derecho a cada elemento para aumentar el espacio entre ellos */
+    margin-left: 50px;
+    align-items: center;
+  }
+  
+  header nav a {
+    text-decoration: double; /* Quita la decoración del texto */
+    color: #0a0a0a; /* Cambia el color del texto */
+  }
+
+/** Creamos los stilos del body*/
+  
+body {
+    background-color: white;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+main{
+    position: initial;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contact-us{
+    width: 1000px;
+    height: 530px;
+    display: inline-block ;
+    border: 1px solid  black;
+    box-shadow: 10px 10px 5px  #888888;
+    border-radius: 25px;
+    padding: 15px; 
+}
+
+.contact-us-tittle {
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 15px;
+}
+
+.contact-us-tittle p {
+    text-align: center;
+    font-family: 'Gill Sans MT';
+    font-size: 15px;
+}
+
+.contact-us-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.contact-us-form input{
+    font-size: 15px;
+    width: 300px;
+    height: 20px;
+    background-color: #dfdfdf;
+}
+
+
+label {
+    font-size: 15px;
+}
+
+#areaTexto{
+    width: 800px;
+    height: 100px;
+}
+
+button{
+    background-color: #0a0a0a;
+    color: white;
+    width: 150px;
+    height: 45px;
+}
+
+  
+  /*FOOTER*/
+  
+  .container-footer {
+    display: flex;
+    background-color: #61F054;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%; 
+    height: 20vh; 
+  }
+  
+  .footer-left {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    flex-direction: column;
+  }
+  
+  .footer-center, .footer-right {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-center-tittle{
+    font-size: 18px;
+  }
+  
+  .footer-right-tittle{
+    font-size: 18px;
+  }
+  
+  .footer-center-body, .footer-right-body {
+    font-size: 14px;
+    font-family:'Lucida Sans Unicode';
+  }
