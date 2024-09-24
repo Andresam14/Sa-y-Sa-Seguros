@@ -9,13 +9,17 @@ $(document).ready(function() {
     });
   });
 
-  //Boton Contactanos
-  $(document).ready(function() {
-    $('#contactanos').on('click', function() {
-      window.location.href = 'contactanos.html';
-    });
+//Boton Contactanos
+$(document).ready(function() {
+  $('#contactanos').on('click', function() {
+    window.location.href = 'contactanos.html';
   });
+});
 
   //Boton Cotizaya ... Proceso de construccion
-
+$(document).ready(function() {
+    $('#cotiza').on('click', function() {
+      alert('Pagina en construccion');  
+  }); 
+});
   
