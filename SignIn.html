@@ -22,7 +22,7 @@
                     <li><a href="contactanos.html">Contactanos</a></li>
                     <li><a href="#">Reseñas</a></li>
                     
-                    <li><a href="SignIn.html"><img src="Img/iconos/InicioSesion2.png" alt="InicioSesion" width="30" height="30"></a></li>
+                    <li id="user-SignIn"><a href="SignIn.html"><img id= "image-logo" src="Img/iconos/InicioSesion2.png" alt="InicioSesion" width="30" height="30"></a></li>
                 </ul>
             </nav>
         </div>
@@ -34,21 +34,22 @@
             <div class="login-tittle">
                 <h1>Inicio Sesion</h1>
             </div>
+            <!--Se crea un formulario para inicio sesion con correo y password-->
             <div class="login-form">
-                <h3>Email</h3>
-                <input class="login-text" id="text-email" type="email" name="Email" placeholder="Email@tucorreo.com">
-                <h3>Contraseña</h3>
-                <input class="login-text" id="text-password" type="password" name="contraseña" placeholder="******">
-                <br><br>
-                <input class="login-button" type="button" value="Ingresar" id="btn-ingresar">
-                <input class="login-button" type="button" value="Volver" id="btn-volver">
-                <p><a href="Register.html">Registrarse</a></p>
-                <p><a href="#">¿Olvido Su contraseña?</a></p>
-            </div>
-
-                   
+                <form id="form-InicioSesion">
+                    <label for="email"><strong>Correo Electronico</strong></label><br><br>
+                    <input class="login-text" id="text-email" type="email" name="Email" placeholder="Email@tucorreo.com">
+                    <br><br>
+                    <label for="password"><strong>Contraseña</strong></label><br><br>
+                    <input class="login-text" id="text-password" type="password" name="password" placeholder="Password">
+                    <br><br>
+                    <input class="login-button" type="submit" value="Ingresar" id="btn-ingresar">
+                    <input class="login-button" type="button" value="Volver" id="btn-volver">
+                    <p><a href="Register.html">Registrarse</a></p>
+                    <p><a href="#">¿Olvido Su contraseña?</a></p>
+                </form>                
+            </div>      
         </div>
-        
     </main>
       
     <footer>

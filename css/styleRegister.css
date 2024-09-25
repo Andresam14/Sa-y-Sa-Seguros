@@ -82,6 +82,13 @@ input:focus::placeholder {
     height: 45px;
 }
 
+#btn-register {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  width: 150px;
+  height: 45px; 
+}
+
 /*FOOTER*/
 
 .container-footer {
