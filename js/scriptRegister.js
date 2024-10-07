@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    
     //Registramos el evento de Submit
     $('#form-Register').submit(function(event) {
         event.preventDefault(); //Evitamos que el formulario se envie al servidor
@@ -15,7 +14,6 @@ $(document).ready(function(){
             alert("Las contraseñas no coinciden");
             return;
         }
-
         //Creamos el objeto que se enviara a la BD
         var userData = {
             id: Date.now(),
@@ -23,7 +21,6 @@ $(document).ready(function(){
             correo: correo,
             contraseña: contraseña
         }
-
         //
         var database = JSON.parse(localStorage.getItem('BD_SaySa'));
         if(!database){
@@ -33,7 +30,7 @@ $(document).ready(function(){
         localStorage.setItem('BD_SaySa', JSON.stringify(database));
 
         //Enviamos los datos al JSON
-        fetch('BasesDatos/BD_SaySa.json', {
+        fetch('BD_SaySa.json', {
             method: 'PUT',
             body: JSON.stringify(database),
             headers: {
@@ -47,8 +44,6 @@ $(document).ready(function(){
         .catch(error => {
             console.error('Error al guardar datos:', error);
         });
-
         alert('Usuario Registrado!');
-
     })
 })

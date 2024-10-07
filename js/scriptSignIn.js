@@ -1,7 +1,7 @@
 //Tomamos el valor de input de las casillas correo y password
 $(document).ready(function(){
   //Cargamos la base de datos Json
-  var database = $.getJSON('BD_SaySa.json', function(data){
+  var database = $.getJSON('BasesDatos/BD_SaySa', function(data){
     // Verificamos el inicio de sesion
     $('#btn-ingresar').submit(function() {
       var correo = $('#text-email').val();
