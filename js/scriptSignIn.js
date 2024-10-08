@@ -10,15 +10,16 @@ $(document).ready(function(){
         return usuario.correo === correo && usuario.password === password;
       });
       if(usuario){
-        window.location.replace('home.html');
+        window.location.replace('RolUser.html');
         //alert('Bienvenido '+ usuario.nombre);
         //Cambiamos el logo y nombre en la zona de Inicio Sesion
-        //$('#user-SignIn').text(usuario.nombre);
-        //$('#logo-SignIn').attr('', usuario.imagen);
+        $('#user-SignIn').text(usuario.nombre);
+        $('#logo-SignIn').attr('', usuario.imagen);
       } else{
         alert('Correo o contraseña incorrectos');
       }
     });
+    
   });
 });
 
